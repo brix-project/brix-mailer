@@ -5,3 +5,8 @@ mailer:
 
 
 
+
+mailspool:
+    spool_dir: './_mailspool'
+
+

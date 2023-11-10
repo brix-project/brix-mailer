@@ -39,7 +39,10 @@ class MailerFacet
             $this->templateDir->withRelativePath($templates[$index]["file"])->assertFile(),
             dataLoader: $callback
         );
-        MailSpoolFacet::getInstance()->$mail);
+
+        print_r($mail);
+
+        MailSpoolFacet::getInstance()->spoolMail($mail);
     }
 
 
