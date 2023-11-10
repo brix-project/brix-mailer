@@ -1,0 +1,38 @@
+{
+    "name": "brixlab/mailer",
+    "type": "project",
+    "description": "Generate Mails",
+    "keywords": ["Brix"],
+    "homepage": "https://infracamp.org",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Matthias Leuffen",
+            "email": "matthes@leuffen.de"
+        }
+    ],
+    "require": {
+        "brixlab/core": "dev-main",
+        "brixlab/mailspool": "dev-main"
+    },
+
+    "require-dev": {
+        "phore/tester": "*",
+        "brixlab/coder": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brix\\Mailer\\": "src"
+        },
+        "files": [
+            "src/bootstrap.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "source",
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}

@@ -1,0 +1,6 @@
+mailer:
+    template_dir: './_mailtpl'
+
+
+
+
