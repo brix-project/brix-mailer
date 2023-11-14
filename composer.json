@@ -13,7 +13,8 @@
     ],
     "require": {
         "brixlab/core": "dev-main",
-        "brixlab/mailspool": "dev-main"
+        "brixlab/mailspool": "dev-main",
+        "symfony/console": "6.4.x-dev"
     },
 
     "require-dev": {

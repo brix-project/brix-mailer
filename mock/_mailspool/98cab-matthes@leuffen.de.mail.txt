@@ -1,6 +1,6 @@
 ---
-To: asdf
-Subject: 'Fwd: [PATCH] You have new notifications for asdf'
+To: matthes@leuffen.de
+Subject: 'Fwd: [PATCH] You have new notifications for Matthias Leuffen'
 From: ~
 Reply-To: ~
 Cc: ~
@@ -12,4 +12,4 @@ Content-Type: multipart/mixed
 Content-Transfer-Encoding: 8bit
 X-Mailer: Mailer/1.1
 ---
-Hello sadf,
+Hello Matthias Leuffen,

@@ -8,6 +8,7 @@ use Brix\Mailer\Type\T_MailerConfig;
 use http\Exception\InvalidArgumentException;
 use Lack\MailSpool\OutgoingMail;
 use Phore\Cli\CLIntputHandler;
+use Phore\Cli\Ncurses\Nc;
 use Phore\Cli\Output\Out;
 
 class Mailer extends AbstractBrixCommand
@@ -39,6 +40,8 @@ class Mailer extends AbstractBrixCommand
             $presetId = $cli->askLine("Select template id");
         }
         $presetId = (int)$presetId;
+
+
 
 
         $this->facet->fromTemplate($presetId-1, fn($key) => $cli->askLine("Enter $key: "));

@@ -2,5 +2,5 @@ mailer:
     template_dir: './_mailtpl'
 
 
-
+    ## Provide Password via Keystore key '<smtp_host>'
 
